@@ -1,0 +1,32 @@
+<iframe 
+  id="stockerbuddy-app" 
+  src="https://stockerbuddy-grafisfy.netlify.app"
+  style="width: 100%; border: none; margin: 0; padding: 0;"
+  scrolling="no"
+></iframe>
+
+<script>
+window.addEventListener('message', function(event) {
+  if (event.data && event.data.type === 'setHeight') {
+    const iframe = document.getElementById('stockerbuddy-app');
+    if (iframe) {
+      iframe.style.height = event.data.height + 'px';
+    }
+  }
+});
+</script>
+
+<style>
+.elementor-widget-html {
+  margin-bottom: 0 !important;
+}
+.elementor-section {
+  padding: 0 !important;
+}
+.elementor-container {
+  padding: 0 !important;
+}
+.elementor-column-wrap {
+  padding: 0 !important;
+}
+</style>

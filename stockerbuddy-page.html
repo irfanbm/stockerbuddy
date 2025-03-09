@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockerbuddy</title>
+    <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/framer-motion@11.0.8/dist/framer-motion.min.js"></script>
+    <script src="https://unpkg.com/lucide-react@0.344.0/dist/umd/lucide-react.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Reset WordPress styles */
+        #wpadminbar, 
+        #masthead,
+        .site-header,
+        .entry-header,
+        .site-footer,
+        .footer-widgets {
+            display: none !important;
+        }
+
+        .site-content,
+        .entry-content,
+        .post-content,
+        article {
+            padding: 0 !important;
+            margin: 0 !important;
+            max-width: 100% !important;
+        }
+
+        body {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+            overflow-x: hidden;
+        }
+
+        /* Custom styles */
+        .shimmer-effect {
+            background: linear-gradient(
+                90deg,
+                rgb(17, 24, 39) 0%,
+                rgb(59, 130, 246) 30%,
+                rgb(17, 24, 39) 60%
+            );
+            background-size: 200% auto;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            animation: shimmer 6s linear infinite;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -200% center; }
+            100% { background-position: 200% center; }
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="https://inquisitive-otter-fca503.netlify.app/assets/index-BLeFfhpC.js"></script>
+    <link rel="stylesheet" href="https://inquisitive-otter-fca503.netlify.app/assets/index-B_JD7OHj.css">
+</body>
+</html>
