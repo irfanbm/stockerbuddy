@@ -66,7 +66,7 @@ export function Pricing() {
   const [activeTab, setActiveTab] = useState('tahunan');
 
   return (
-    <section className="mb-24">
+    <section className="mb-24 pricing-section">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
