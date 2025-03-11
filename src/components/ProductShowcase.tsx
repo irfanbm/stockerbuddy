@@ -14,8 +14,21 @@ const products = [
     ],
     image: "https://grafisify.com/wp-content/uploads/2024/09/AutoCaption-PSD.png",
     buttons: [
-      { text: "Beli", primary: true },
-      { text: "Demo", primary: false }
+      { 
+        text: "Beli", 
+        primary: true,
+        onClick: () => {
+          const pricingSection = document.querySelector('.pricing-section');
+          if (pricingSection) {
+            pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      },
+      { 
+        text: "Demo", 
+        primary: false,
+        onClick: () => window.open('https://www.youtube.com/watch?v=QgtH3CfIF0c', '_blank')
+      }
     ]
   },
   {
@@ -29,8 +42,21 @@ const products = [
     ],
     image: "https://grafisify.com/wp-content/uploads/2024/09/midbot.png",
     buttons: [
-      { text: "Beli", primary: true },
-      { text: "Demo", primary: false }
+      { 
+        text: "Beli", 
+        primary: true,
+        onClick: () => {
+          const pricingSection = document.querySelector('.pricing-section');
+          if (pricingSection) {
+            pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      },
+      { 
+        text: "Demo", 
+        primary: false,
+        onClick: () => window.open('https://www.youtube.com/watch?v=ugyDW9EO7nQ', '_blank')
+      }
     ]
   },
   {
@@ -44,7 +70,16 @@ const products = [
     ],
     image: "https://grafisify.com/wp-content/uploads/2024/09/Metaexport-jpg.png",
     buttons: [
-      { text: "Dapatkan", primary: true }
+      { 
+        text: "Beli", 
+        primary: true,
+        onClick: () => {
+          const pricingSection = document.querySelector('.pricing-section');
+          if (pricingSection) {
+            pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      }
     ]
   },
   {
@@ -58,9 +93,26 @@ const products = [
     ],
     image: "https://grafisify.com/wp-content/uploads/2024/11/Artboard-1.png",
     buttons: [
-      { text: "Install", primary: true },
-      { text: "Demo", primary: false },
-      { text: "Get free license", primary: false }
+      { 
+        text: "Beli", 
+        primary: true,
+        onClick: () => {
+          const pricingSection = document.querySelector('.pricing-section');
+          if (pricingSection) {
+            pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      },
+      { 
+        text: "Demo", 
+        primary: false,
+        onClick: () => window.open('https://youtu.be/YV3dX9HDvqs', '_blank')
+      },
+      { 
+        text: "Get Free License", 
+        primary: false,
+        onClick: () => window.open('https://wa.me/6257777520212', '_blank')
+      }
     ]
   },
   {
@@ -74,9 +126,26 @@ const products = [
     ],
     image: "https://grafisify.com/wp-content/uploads/2024/12/Dreamstime2.png",
     buttons: [
-      { text: "Install", primary: true },
-      { text: "Demo", primary: false },
-      { text: "Get free license", primary: false }
+      { 
+        text: "Beli", 
+        primary: true,
+        onClick: () => {
+          const pricingSection = document.querySelector('.pricing-section');
+          if (pricingSection) {
+            pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      },
+      { 
+        text: "Demo", 
+        primary: false,
+        onClick: () => window.open('https://youtu.be/YV3dX9HDvqs', '_blank')
+      },
+      { 
+        text: "Get Free License", 
+        primary: false,
+        onClick: () => window.open('https://wa.me/6257777520212', '_blank')
+      }
     ]
   }
 ];
@@ -133,6 +202,7 @@ export function ProductShowcase() {
               {products[currentProduct].buttons.map((button, index) => (
                 <button
                   key={index}
+                  onClick={button.onClick}
                   className={`px-6 py-2.5 rounded-lg font-medium transition-all transform hover:scale-105 ${
                     button.primary 
                       ? 'bg-blue-500 text-white hover:bg-blue-600' 
