@@ -24,3 +24,18 @@
   -webkit-background-clip: text;
   animation: shimmer 6s linear infinite;
 }
+
+.playwrite-de-grund-title {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Font Smoothing */
+.playwrite-de-grund-title {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
