@@ -155,7 +155,7 @@ export function ProductShowcase() {
   const [showImagePopup, setShowImagePopup] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative product-showcase-section">
       <motion.div 
         className="bg-gradient-to-br from-white to-blue-50 rounded-2xl shadow-xl p-8 mb-16 max-w-5xl mx-auto"
         style={{
