@@ -117,17 +117,17 @@ export function Pricing() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <PricingCard
               title="MidGen Lite"
-              promo="957k"
+              promo="478k"
               normal="1,367k"
-              coupon="GETMIDGEN30"
+              coupon="BERKAH65"
               buyLink="https://my.grafisify.com/product/midgen-yearly/?_gl=1*11fv0y2*_ga*NDcwNzg2ODE4LjE2ODMxMTU3OTQ.*_ga_K643DSJKVJ*MTc0MTE4NDI5OS42My4xLjE3NDExODUwNTAuMC4wLjA."
             />
             <PricingCard
               title="MidGen Pro"
-              promo="998k"
+              promo="498k"
               normal="1,425k"
               bonus="MidBot 1 Tahun"
-              coupon="GETMIDGEN30"
+              coupon="BERKAH65"
               featured={true}
               buyLink="https://my.grafisify.com/product/midgen-pro-1-year/?_gl=1*l19cl5*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
@@ -161,31 +161,31 @@ export function Pricing() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <PricingCard
               title="MidGen Pro | 3 Month"
-              promo="458k"
+              promo="327k"
               normal="654k"
               bonus="MidBot 3 Month"
-              coupon="GETMIDGEN30"
+              coupon="BERKAH50"
               buyLink="https://my.grafisify.com/product/midgen-pro-3-month/?_gl=1*gex78s*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
             <PricingCard
               title="MidGen Pro | 1 Month"
-              promo="287k"
+              promo="205k"
               normal="410k"
-              coupon="GETMIDGEN30"
+              coupon="BERKAH50"
               buyLink="https://my.grafisify.com/product/midgen-pro-monthly/?_gl=1*gex78s*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
             <PricingCard
               title="MidGen Lite | 3 Month"
-              promo="350k"
+              promo="250k"
               normal="500k"
-              coupon="GETMIDGEN30"
+              coupon="BERKAH50"
               buyLink="https://my.grafisify.com/product/midgen-lite-3-month/?_gl=1*gex78s*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
             <PricingCard
               title="MidGen Lite | 1 Month"
-              promo="145k"
+              promo="103k"
               normal="207k"
-              coupon="GETMIDGEN30"
+              coupon="BERKAH50"
               buyLink="https://my.grafisify.com/product/midgen-monthly/?_gl=1*gex78s*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
             <PricingCard
@@ -218,16 +218,16 @@ export function Pricing() {
             />
             <PricingCard
               title="Dreamstime Auto | 2 Month"
-              promo="189k"
+              promo="132k"
               normal="264k"
-              coupon="DREAMSGO"
+              coupon="BERKAH50"
               buyLink="https://my.grafisify.com/product/dreamstime-auto-submit-2/?_gl=1*qdnvw6*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
             <PricingCard
               title="CanvaClean BG | 2 Month"
-              promo="158k"
+              promo="132k"
               normal="264k"
-              coupon="BGCLEANER"
+              coupon="BERKAH50"
               buyLink="https://my.grafisify.com/product/canvaclean/?_gl=1*qdnvw6*_ga*MTA2OTc2MjUyNy4xNzE5NzIxNzky*_ga_K643DSJKVJ*MTc0MTMzMTgxOC4zMS4wLjE3NDEzMzE4MzIuMC4wLjA."
             />
           </div>
