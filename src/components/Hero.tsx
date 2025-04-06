@@ -103,7 +103,7 @@ export function Hero() {
 
       <div className="flex flex-col justify-center items-center w-[250px] sm:w-[300px] md:w-[500px] lg:w-[700px] z-50 pointer-events-auto">
         <HandWrittenTitle 
-          title="Promo Ramadan hingga 65%!" 
+          title="Promo Syawal hingga 65%!" 
           className="transform -rotate-3 hover:rotate-0 transition-transform duration-300 mb-8"
         />
         <motion.h1
