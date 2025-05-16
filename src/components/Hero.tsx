@@ -2,7 +2,6 @@ import { motion, LayoutGroup } from 'framer-motion';
 import { Camera, Image, Video, FileImage, PenTool, Palette } from 'lucide-react';
 import { TextRotate } from '../components/ui/text-rotate';
 import Floating, { FloatingElement } from '../components/ui/parallax-floating';
-import { HandWrittenTitle } from '../components/ui/hand-writing-text';
 
 export function Hero() {
   const scrollToProductShowcase = () => {
@@ -102,10 +101,6 @@ export function Hero() {
       </Floating>
 
       <div className="flex flex-col justify-center items-center w-[250px] sm:w-[300px] md:w-[500px] lg:w-[700px] z-50 pointer-events-auto">
-        <HandWrittenTitle 
-          title="Promo Syawal hingga 65%!" 
-          className="transform -rotate-3 hover:rotate-0 transition-transform duration-300 mb-8"
-        />
         <motion.h1
           className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-center w-full justify-center items-center flex-col flex whitespace-pre leading-tight tracking-tight space-y-1 md:space-y-4"
           animate={{ opacity: 1, y: 0 }}
